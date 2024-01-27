@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --azul: #50087ae8;
+    --preto: black;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    z-index: 2;
+    background-color: var(--azul);
+    position: fixed;
+    top: 0;
+    opacity: 100;
+
+   
+    
+}
+
+nav,
+section{
+  
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+ 
+   
+    
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px 20px;
+   
+}
+
+nav ul li a{
+    color: var(--preto);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 150px;  
+}
+
+main{
+    padding-top: 80px;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+}
+#produtos{
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    border:  1px solid #cccccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    height: 200px;
+}
+
+.favorito{
+    position: absolute;
+    width: 20px;
+    top: 20px;
+    right: 7px;
+}
+
+.produto{
+    width: 160px;
+}
+
+
+
+
