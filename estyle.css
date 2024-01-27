@@ -105,6 +105,56 @@ h3{
     width: 160px;
 }
 
+.full{
+    background-color: var(--azul);
+    padding: 80px;
+}
+
+.full h3{
+    color: white;
+}
+
+#novidades{
+    display: flex;
+    justify-content: center;
+}
+
+.form-lead input{
+    width: 400px;
+    padding: 20px;
+    border:  1px solid var(--preto);
+    border-radius: 5px;
+}
+
+.form-lead button{
+    background-color: var(--preto);
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+    color: white;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+#sobre{
+    width: 900px;
+    text-align: justify;
+}
+
+footer{
+    position: relative;
+    margin-top: 40px;
+    background-color: var(--preto);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.topo{
+    width: 60px;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+}
 
 
 
