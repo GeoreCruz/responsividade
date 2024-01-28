@@ -78,6 +78,7 @@ h3{
     padding: 20px;
 }
 #produtos{
+    
     display: flex;
     width: 100%;
     min-height: 70vh;
@@ -89,16 +90,17 @@ h3{
     position: relative;
     border:  1px solid #cccccc;
     border-radius: 5px;
-    padding: 15px;
-    margin: 20px;
-    height: 200px;
+    padding: 25px;
+    margin: 10px;
+    height: 150px;
+    margin-top: 50px;
 }
 
 .favorito{
     position: absolute;
-    width: 20px;
-    top: 20px;
-    right: 7px;
+    width: 15px;
+    top: 13px;
+    right: 30px;
 }
 
 .produto{
